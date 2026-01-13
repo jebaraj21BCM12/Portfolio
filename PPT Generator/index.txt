@@ -9,8 +9,8 @@
 <style>
 /* Embed Uni Ila.Sundaram-06 font */
 @font-face {
-    font-family: 'UniIlaSundaram06';
-    src: url('fonts/UniIlaSundaram-06.ttf') format('truetype');
+    font-family: 'tamil004';
+    src: url('fonts/tamil004.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -18,7 +18,7 @@
 html,body{
     height:100%;margin:0;
     background:#27032e;color:#fff;
-    font-family:'UniIlaSundaram06', serif;
+    font-family:'tamil004', serif;
 }
 body{display:flex}
 
@@ -162,7 +162,7 @@ function renderPreview(){
         const fs = calcFontSize(slide);
         t.style.fontSize = fs + "px";
         t.style.lineHeight = (fs+8) + "px";
-        t.style.fontFamily = 'UniIlaSundaram06';
+        t.style.fontFamily = 'tamil044';
         t.style.fontWeight = '900'; // bold 900
         t.style.color = textColor.value;
 
@@ -200,7 +200,7 @@ function generatePPT(){
         s.addText(slide,{
             x:0.3, y:0, w:9.4, h:"100%",
             align:"center", valign:"middle",
-            fontFace:'UniIlaSundaram06',
+            fontFace:'tamil004',
             fontSize:fs,
             bold:true,
             color:textColor.value.replace("#",""),
